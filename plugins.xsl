@@ -76,10 +76,10 @@ td.menu_panel {
 
 </head>
 <body>
-<img src="../static/style/new/logo.png"/>
+<img src="qgis-icon-green32.svg"/>
 <h2>QGIS Python Plugins</h2>
 <p>
-NOTE: The preferred way to install QGIS plugins is via the <a href="https://docs.qgis.org/testing/en/docs/user_manual/plugins/plugins.html">Plugin Manager</a> in QGIS itself!
+NOTE: The preferred way to install QGIS plugins is via the <a href="https://geo-pie.readthedocs.io/index.html">Plugin Manager</a> in QGIS itself!
 QGIS will download this list automatically and make it possible to install a plugin with one click.
 </p>
 <p>
