@@ -77,13 +77,12 @@ td.menu_panel {
 </head>
 <body>
 <img src="qgis-icon-green32.png"/>
-<h2>QGIS Python Plugins</h2>
+<h2>Скрипты на Python для QGIS</h2>
 <p>
-NOTE: The preferred way to install QGIS plugins is via the <a href="https://geo-pie.readthedocs.io/index.html">Plugin Manager</a> in QGIS itself!
-QGIS will download this list automatically and make it possible to install a plugin with one click.
+ПРИМЕЧАНИЕ: Предпочтительный способ установки плагинов QGIS - через <a href="https://docs.qgis.org/testing/en/docs/user_manual/plugins/plugins.html">Диспетчер плагинов</a> в самом QGIS! QGIS загрузит этот список автоматически и даст возможность установить плагин одним щелчком мыши.
 </p>
 <p>
-NOTE: Here you only see a representation of the plugins working for the requested version (defined by the "<code>?qgis=x.y.z</code>" part of the url).
+ПРИМЕЧАНИЕ: Здесь вы видите только представление плагинов, работающих для запрошенной версии (определяется по параметру url "<code>?qgis=x.y</code>"). 
 </p>
 <table>
 <tr>
@@ -139,7 +138,8 @@ Download:
 Author: <xsl:value-of select="author_name" />
 </div>
 <div class="author">
-Version: <xsl:value-of select="version" />
+Version: <xsl:value-of select="@version" />
+<!--Version: <xsl:value-of select="version" /> -->
 </div>
 <div class="author">
 Trusted: <xsl:value-of select="trusted" />
