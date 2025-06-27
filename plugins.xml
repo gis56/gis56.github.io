@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="plugins.xsl" ?>
 <plugins>
-    <pyqgis_plugin name="GeoPie" version="0.1" plugin_id="1">
+    <pyqgis_plugin name="GeoPie" version="0.4.1" plugin_id="1">
         <description><![CDATA[Набор скриптов: Построение разреза, Зоны санитарной охраны, Матрица расстояний между скважинами.]]></description>
         <about><![CDATA[Мои скрипты для тренировки в помощь моей любимой жене!]]></about>
         <trusted>True</trusted>
         <qgis_minimum_version>3.0.0</qgis_minimum_version>
         <qgis_maximum_version>3.99.0</qgis_maximum_version>
         <homepage><![CDATA[https://geo-pie.readthedocs.io/index.html]]></homepage>
-        <file_name>geo_pie.zip</file_name>
+        <file_name>geo_pie.0.4.1.zip</file_name>
         <icon>qgis-icon-green32.png</icon>
         <author_name><![CDATA[Evgeniy Shlunev]]></author_name>
         <download_url>https://github.com/gis56/geo_pie</download_url>
-        <experimental>True</experimental>
+        <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[https://github.com/gis56/geo_pi/issues]]></tracker>
         <repository><![CDATA[https://github.com/gis56/geo_pie]]></repository>
-        <tags><![CDATA[python,zso,distance]]></tags>
+        <tags><![CDATA[python, zso, distance]]></tags>
     </pyqgis_plugin>
 </plugins>
