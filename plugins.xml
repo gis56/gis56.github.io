@@ -11,7 +11,7 @@
         <file_name>geo_pie.0.4.1.zip</file_name>
         <icon>qgis-icon-green32.png</icon>
         <author_name><![CDATA[Evgeniy Shlunev]]></author_name>
-        <download_url>https://github.com/gis56/gis56.github.io/geo_pie/0.4.1/</download_url>
+        <download_url>https://gis56.github.io/geo_pie/0.4.1/</download_url>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[https://github.com/gis56/geo_pie/issues]]></tracker>
