@@ -8,7 +8,7 @@
         <qgis_minimum_version>3.0.0</qgis_minimum_version>
         <qgis_maximum_version>3.99.0</qgis_maximum_version>
         <homepage><![CDATA[https://geo-pie.readthedocs.io/index.html]]></homepage>
-        <file_name>geo_pie.0.4.1.zip</file_name>
+        <file_name>geo_pie.0.4.2.zip</file_name>
         <icon>qgis-icon-green32.png</icon>
         <author_name><![CDATA[Evgeniy Shlunev]]></author_name>
         <download_url>https://gis56.github.io/geo_pie/0.4.2/geo_pie.0.4.2.zip</download_url>
